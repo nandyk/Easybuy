@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="46dp"
+        android:drawableTop="@drawable/veg4"
+        android:text="VEGETABLES" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/b1"
+        android:layout_centerVertical="true"
+        android:drawableTop="@drawable/offer1"
+        android:text="OFFERS" />
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="PURCHASE" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/b1"
+        android:layout_alignBottom="@+id/b1"
+        android:layout_alignLeft="@+id/b4"
+        android:layout_marginLeft="15dp"
+        android:drawableTop="@drawable/fruit4"
+        android:text="FRUITS" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b5"
+        android:layout_toRightOf="@+id/b3"
+        android:drawableTop="@drawable/cool3"
+        android:text="COOL DRINKS" />
+
+</RelativeLayout>

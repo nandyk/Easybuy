@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="32dp"
+        android:layout_toLeftOf="@+id/b2"
+        android:drawableTop="@drawable/veg4"
+        android:text="VEGETABLES" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b3"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="31dp"
+        android:drawableTop="@drawable/fruit4"
+        android:text="FRUITS" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/b3"
+        android:layout_marginRight="16dp"
+        android:drawableTop="@drawable/stationery3"
+        android:text="STATIONARY" />
+
+    <Button
+        android:id="@+id/b6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/b5"
+        android:drawableTop="@drawable/cool3"
+        android:text="COOL DRINKS" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/b1"
+        android:layout_below="@+id/b1"
+        android:drawableTop="@drawable/gift3"
+        android:text="GIFTS" />
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/b3"
+        android:layout_below="@+id/b3"
+        android:drawableTop="@drawable/spices2"
+        android:text="SPICES" />
+
+    <Button
+        android:id="@+id/b7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="PURCHASE" />
+
+</RelativeLayout>
