@@ -24,7 +24,7 @@ import android.telephony.SmsManager;
 import android.support.v4.app.ActivityCompat;
 
 public class Newuser extends Activity{
-	
+	//this is my second commit
 	EditText e1,e2,e3,e4,e5;
 	String name,mobile,email,city,password,message;
 	int rslt;
